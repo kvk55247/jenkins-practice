@@ -18,6 +18,7 @@ pipeline {
                 script {
                     sh """
                         echo "Hello bulid"
+                        sleep 15
                         env
 
                     """
